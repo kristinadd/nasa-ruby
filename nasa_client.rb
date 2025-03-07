@@ -23,7 +23,6 @@ class NasaClient
     if response.code == 200
       JSON.parse(response.body)
     else
-      # Handle errors or unexpected responses
       { "error" => "Request failed with status #{response.code}: #{response.body}" }
     end
   end
