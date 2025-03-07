@@ -22,3 +22,10 @@ This API allows you to fetch the latest or historical astronomy images and relat
 **Friday, March 7, 2025**
 
 [View the Image](https://apod.nasa.gov/apod/image/2503/Abell7_VChander1024.jpg)
+
+
+## This Is Another Featured Image
+
+**March 1, 2023**
+
+[View the Image](https://apod.nasa.gov/apod/image/2303/FlamingStarComet_Roell_7504.jpg)
