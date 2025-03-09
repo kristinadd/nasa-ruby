@@ -7,8 +7,7 @@ class NasaClient
   def initialize(api_key:)
     @api_key = api_key
     @conn = Faraday.new(url: BASE_URL) do |faraday|
-      # Use the default adapter (Net::HTTP)
-      faraday.adapter Faraday.default_adapter
+      faraday.adapter Faraday.default_adapter       # Use the default adapter (Net::HTTP)
     end
   end
 
