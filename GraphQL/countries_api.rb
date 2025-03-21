@@ -1,3 +1,5 @@
+require 'ostruct' # graphql gem (version 1.13.22) internally uses OpenStruct
+# OpenStruct used to be auto-loaded in older Ruby versions, but since Ruby 3.0+, it must be required manually.
 require 'graphql/client'
 require 'graphql/client/http'
 
