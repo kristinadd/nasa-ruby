@@ -5,3 +5,6 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem 'httparty'
+
+# GraphQL
+gem 'graphql-client'
